@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_flashcard"
+        android:icon="@drawable/ic_flashcards_24dp"
+        android:title="@string/flash_card" />
+
+    <item
+        android:id="@+id/navigation_upload"
+        android:icon="@drawable/ic_upload_24dp"
+        android:title="@string/user_upload" />
+
+    <item
+        android:id="@+id/navigation_book"
+        android:icon="@drawable/ic_book_shelf_24dp"
+        android:title="@string/book_shelf" />
+
+    <item
+        android:id="@+id/navigation_profile"
+        android:icon="@drawable/ic_profile_setting_24dp"
+        android:title="@string/user_setting" />
+
+</menu>

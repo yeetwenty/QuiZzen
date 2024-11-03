@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_flashcard"
+        android:name="com.example.quizzen.navigation.FlashcardsFragment"
+        android:label="@string/flash_card"
+        tools:layout="@layout/fragment_flashcards" />
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.example.quizzen.navigation.LoginFragment"
+        android:label= "@string/title_home"
+        tools:layout="@layout/fragment_start_navigation_transparent" />
+
+    <fragment
+        android:id="@+id/navigation_profile"
+        android:name="com.example.quizzen.navigation.NavigationFragment"
+        android:label="@string/user_setting"
+        tools:layout="@layout/fragment_profile" />
+
+    <fragment
+        android:id="@+id/navigation_book"
+        android:name="com.example.quizzen.navigation.BookFragment"
+        android:label="@string/title_dashboard"
+        tools:layout="@layout/fragment_book" />
+
+    <fragment
+        android:id="@+id/navigation_upload"
+        android:name="com.example.quizzen.navigation.UploadFragment"
+        android:label="@string/user_upload"
+        tools:layout="@layout/fragment_upload" />
+
+</navigation>

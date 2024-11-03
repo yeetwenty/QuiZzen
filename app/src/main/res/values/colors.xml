@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#D3BA6F</color>
+    <color name="purple_500">#E380A2</color>
+    <color name="purple_700">#957F3E</color>
+    <color name="teal_200">#BCB046</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#755B1F</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- light theme colors. -->
+    <color name="light_Top_colour">#B6871B</color>
+    <color name="light_onPrimary">#FFFFFF</color>
+    <color name="light_primaryContainer">#B0ECFF</color>
+    <color name="light_onPrimaryContainer">#001F27</color>
+    <color name="light_secondary">#4B6269</color>
+    <color name="light_onSecondary">#FFFFFF</color>
+    <color name="light_secondaryContainer">#CEE7EF</color>
+    <color name="light_onSecondaryContainer">#061E25</color>
+    <color name="light_tertiary">#585C7E</color>
+    <color name="light_onTertiary">#FFFFFF</color>
+    <color name="light_tertiaryContainer">#DFE0FF</color>
+    <color name="light_onTertiaryContainer">#141937</color>
+    <color name="light_error">#BA1A1A</color>
+    <color name="light_errorContainer">#FFDAD6</color>
+    <color name="light_onError">#FFFFFF</color>
+    <color name="light_onErrorContainer">#410002</color>
+    <color name="light_background">#FBFCFE</color>
+    <color name="light_onBackground">#191C1D</color>
+    <color name="light_surface">#FBFCFE</color>
+    <color name="light_onSurface">#191C1D</color>
+
+
+    <!-- Dark theme colors -->
+    <color name="dark_primary">#9F7109</color>
+    <color name="dark_onPrimary">#853E3E</color>
+    <color name="dark_primaryContainer">#853E3E</color>
+    <color name="dark_onPrimaryContainer">#C38F1B</color>
+    <color name="dark_secondary">#B2CAD3</color>
+    <color name="dark_onSecondary">#70551A</color>
+    <color name="dark_secondaryContainer">#9C7F3D</color>
+    <color name="dark_onSecondaryContainer">#CEE7EF</color>
+    <color name="dark_tertiary">#C0C4EB</color>
+    <color name="dark_onTertiary">#2A2E4D</color>
+    <color name="dark_tertiaryContainer">#404565</color>
+    <color name="dark_onTertiaryContainer">#DFE0FF</color>
+    <color name="dark_error">#FFB4AB</color>
+    <color name="dark_errorContainer">#93000A</color>
+    <color name="dark_onError">#690005</color>
+    <color name="dark_onErrorContainer">#FFDAD6</color>
+    <color name="dark_background">#191C1D</color>
+    <color name="dark_onBackground">#E1E3E4</color>
+    <color name="dark_surfaceTint">#BD793D</color>
+    <color name="dark_surfaceTintColor">#DF9656</color>
+
+    <!-- App colors -->
+    <color name="app_background"> #FADD9B </color>
+    <color name="app_title"> #DC7575 </color>
+    <color name="app_shadow"> #FFC99A </color>
+    <color name="app_shadow2"> #C57D3D </color>
+
+    <!-- Setting Mode colors -->
+    <color name="light_mode_yellow">#FADD9B</color>
+    <color name="light_mode_flesh">#FFC99A</color>
+    <color name="dark_mode">#FFBDBDBD</color>
+    <color name="darker_mode">#FF757575</color>
+
+</resources>

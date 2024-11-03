@@ -1,0 +1,88 @@
+## Pledge of Academic Integrity
+<DO NOT MODIFY THE STRUCTURE OF THIS FILE>
+
+I am committed to being a person of integrity.
+
+I pledge, as a member of the Australian National University community,
+to abide by and uphold the standards of academic integrity outlined in
+the ANU statement on
+[honesty and plagiarism](http://www.anu.edu.au/students/program-administration/assessments-exams/academic-honesty-plagiarism),
+and I am aware of the relevant
+[legislation](https://www.legislation.gov.au/Details/F2021L00997),
+and understand the consequences of me breaching those rules. I confirm that my answers to the questions below will be truthful, up to date and complete.
+# for information & examples on how to fill this out correctly, see
+# https://cs.anu.edu.au/courses/comp1720/resources/faq/#statement-of-originality
+# this document has been modified for the purpose of the COMP2100/6442 group assignment.
+
+declaration: >-
+  I declare that everything I have submitted in this assignment is entirely our
+  own work, with the following exceptions:
+
+
+# add as many "url+licence+comment" entries as necessary
+# (or remove it altogether if you haven't used any external assets)
+assets:
+  # NOTE: "Bliss" is just here as an example, you SHOULD REMOVE IT
+# Icons
+  - comment: "Navigation_Bar_Vector_Icons + Profile_vector_icon"
+    url: https://pictogrammers.com/docs/general/license/
+    licence: free
+
+# Flashcards 
+  - comment: "Shuffle_free_icon"
+    url: https://www.flaticon.com/free-icon/shuffle_3580329
+    licence: free
+  - comment: "Back_free_icon"
+    url: https://www.flaticon.com/free-icon/back_130882
+    licence: free
+  - comment: "Menu_Bar_free_icon"
+    url: https://www.flaticon.com/free-icon/menu-bar_2311531
+    licence: free
+  
+# Book assets
+- comment: "Cover_of_the_Red_and_the_Black" 
+   url: https://www.kobo.com/us/en/ebook/the-red-and-the-black-68
+   licence: free
+- comment: "Cover_of_the_Little_Prince"
+   url: https://www.amazon.com.au/Little-Prince-ANTOINE-SAINT-EXUPERY/dp/1853261580/ref=asc_df_1853261580/?tag=googleshopdsk-22&linkCode=df0&hvadid=341772716290&hvpos=&hvnetw=g&hvrand=4945331566589705495&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9071967&hvtargid=pla-388622063985&psc=1
+   licence: free
+- comment: "Cover_of_Souvenirs_entomologiques"
+   url: https://www.amazon.com.au/Souvenirs-entomologiques-linstinct-moeurs-insectes/dp/2221054628
+   licence: free
+- comment: "Cover_of_Jane_Eyre"
+   url: https://classic-literature.fandom.com/wiki/Jane_Eyre
+   licence: free
+- comment: "Cover_of_Wuthering_Heights"   
+   url: https://us.macmillan.com/books/9781466805743/wutheringheights
+   licence: free
+
+### Questions (answer before final submission):
+1. You (as a group) completed this work (tick the most appropriate option): 
+  - [ ] by yourself (as a group) without the help of others; 
+  - [x] with Gen AI tools (e.g., ChatGPT, Co-Pilot).
+
+2. If not completed by yourself only, how did the use of Gen AI tools (and which ones), contribute to completing this assignment? 
+  - Tool(s): ChatGPT
+
+3. How did they contribute to the completion of this assignment?
+  - Generate 2500 instances
+  - Generate unit test
+  - Reference for report writing
+
+4. How long did it take to complete this assignment (approximately, in hours)?
+  - 346 hours (in total)
+
+
+
+# for each member, sign by inputting your name and uid here (remove any empty "name+uid" entries)
+members:
+  - name: Jiazhe Lin
+    uid: u7487349
+  - name: Judy Xie
+    uid: u7397058
+  - name: Sunny Zhang 
+    uid: u7453778
+  - name: Mengyao Xu
+    uid: u7465786
+  - name: Jiaying Li 
+    uid: u7452980

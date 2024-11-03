@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#fadd9b"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/user_avatar">
+
+    <!--Your favourite ebook button-->
+    <Button
+        android:id="@+id/user_ebook"
+        style="@android:style/Widget.Button"
+        android:layout_width="match_parent"
+        android:layout_height="61dp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="24dp"
+        android:text="@string/user_profile_ebook"
+        android:textColor="#424242"
+        android:textSize="18sp"
+        app:backgroundTint="#D8D8D8"
+        app:layout_constraintBottom_toTopOf="@+id/user_flashcard"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/user_info"
+        app:layout_constraintVertical_bias="1.0">
+
+    </Button>
+
+    <!--Your Flashcard button-->
+    <Button
+        android:id="@+id/user_flashcard"
+        style="@android:style/Widget.Button"
+        android:layout_width="match_parent"
+        android:layout_height="61dp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="28dp"
+        android:text="@string/user_profile_flashcard"
+        android:textColor="#424242"
+        android:textSize="18sp"
+        app:backgroundTint="#D8D8D8"
+        app:layout_constraintBottom_toTopOf="@+id/user_settings"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent">
+
+    </Button>
+
+    <!--Settings button-->
+    <Button
+        android:id="@+id/user_settings"
+        style="@android:style/Widget.Button"
+        android:layout_width="match_parent"
+        android:layout_height="61dp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="236dp"
+        android:text="@string/user_setting"
+        android:textColor="#424242"
+        android:textSize="18sp"
+        app:backgroundTint="#D8D8D8"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent">
+
+    </Button>
+
+    <!--logout button-->
+    <Button
+        android:id="@+id/user_logout"
+        style="@android:style/Widget.Button"
+        android:layout_width="match_parent"
+        android:layout_height="61dp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="32dp"
+        android:text="@string/user_logout"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        app:backgroundTint="#dc7575"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/user_settings">
+
+    </Button>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="64dp"
+        android:id="@+id/user_info">
+
+        <!--login/sign button -->
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="87dp"
+            android:background="@color/app_background">
+
+            <!--profile image button -->
+            <ImageView
+                android:id="@+id/user_avatar"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_marginStart="4dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="16dp"
+                android:src="@drawable/defuserava"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="1.0"
+                tools:ignore="DuplicateIds" />
+
+            <!--login/sign button -->
+            <TextView
+                android:id="@+id/user_mail"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="32dp"
+                android:text="Login/Sign up"
+                android:textSize="30sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/user_avatar"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.553" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

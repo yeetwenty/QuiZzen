@@ -1,0 +1,5 @@
+<resources>
+    <declare-styleable name="ItemListView">
+        <attr name="example_Colour" format="color"/>
+    </declare-styleable>
+</resources>

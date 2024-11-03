@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">Quizzen</string>
+    <string name="user_setting">Settings</string>
+
+    <string name="book_shelf">Book Shelf</string>
+    <string name="flash_card">Card Stack</string>
+    <string name="user_upload">Upload</string>
+    <string name="select_file">Select File</string>
+    <string name="quizzen_flashcard">QuizZen Flashcards</string>
+
+    <string name="user_avatar_description">User Avatar</string>
+    <string name="user_name">Login / Sign Up</string>
+    <string name="user_logout">LOGOUT</string>
+    <string name="user_profile_ebook">Your Favourite Ebook</string>
+    <string name="user_profile_flashcard">Your FlashCards</string>
+    <string name="user_achievement">Your Achievement!</string>
+    <string name="default_number">0</string>
+    <string name="user_achievement_read_book">Book</string>
+    <string name="user_achievement_FC">FlashCards</string>
+    <string name="user_achievement_Own_FC">Own FlashCards</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="user_not_login">Login/Sign Up</string>
+
+    <!--placeholder text. does need translating-->
+    <string name="book_title" translatable="false">Title</string>
+    <string name="book_author" translatable="false">Author</string>
+    <string name="book_text" translatable="false">Book Content Here</string>
+
+    <string name="flashcard_viewer">QuizZen Flashcard Viewer</string>
+    <string name="cards_in_order">Order Cards</string>
+    <string name="shuffle_cards">Shuffle Cards</string>
+    <string name="btn_book_text">View Text Books</string>
+    <string name="previous_flashcard">Previous Flashcard</string>
+    <string name="next_flashcard">Next Flashcard</string>
+    <string name="user_fcs">Your Sets</string>
+    <string name="public_fcs">Public Sets</string>
+    <string name="btn_create_fc">Create New Set</string>
+    <string name="set_fav">Set as Favorite</string>
+
+    <!--pls translate!!-->
+    <string name="booklist">Text Book List</string>
+    <string name="textbook_title">Book Title</string>
+
+    <!-- Root_preference -->
+    <string name="appearance_menu">Appearance</string>
+    <string name="about_menu">About</string>
+    <string name="night_mode">Dark Mode</string>
+    <string name="monet_using">Dynamic Color</string>
+    <string name="terms_of_service">Terms &amp; Conditions</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="monet_using_summary">Apply theming based on your wallpaper (system)</string>
+    <string name="title_activity_bottom_navigation">BottomNavigationActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+</resources>

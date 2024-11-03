@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Quizzen</string>
+    <string name="user_setting">设置</string>
+
+    <string name="book_shelf">书架</string>
+    <string name="flash_card">卡片堆</string>
+    <string name="user_upload">上传</string>
+    <string name="select_file">选择文件</string>
+    <string name="quizzen_flashcard">QuizZen 抽认卡</string>
+
+    <string name="user_avatar_description">用户头像</string>
+    <string name="user_name">登录/注册</string>
+    <string name="user_logout">退出</string>
+    <string name="user_profile_ebook">你最喜欢的电子书</string>
+    <string name="user_profile_flashcard">你的抽认卡</string>
+    <string name="user_achievement">你的成就！</string>
+    <string name="default_number">0</string>
+    <string name="user_achievement_read_book">书</string>
+    <string name="user_achievement_FC">抽认卡</string>
+    <string name="user_achievement_Own_FC">Own FlashCards</string>
+    <string name="hello_blank_fragment">自己的抽认卡</string>
+    <string name="user_not_login">登陆注册</string>
+
+    <!--placeholder text. does need translating-->
+    <string name="book_title" translatable="false">Title</string>
+    <string name="book_author" translatable="false">Author</string>
+    <string name="book_text" translatable="false">Book Content Here</string>
+
+    <!--pls translate!!-->
+    <string name="flashcard_viewer">浏览抽认卡</string>
+    <string name="cards_in_order">默认顺序</string>
+    <string name="shuffle_cards">洗牌</string>
+    <string name="btn_book_text">查看书籍</string>
+    <string name="previous_flashcard">上一张</string>
+    <string name="next_flashcard">下一张</string>
+    <string name="user_fcs">你的集合</string>
+    <string name="public_fcs">公共集合</string>
+    <string name="btn_create_fc">创建新集</string>
+    <string name="set_fav">设为喜欢</string>
+    <string name="booklist">文字书籍</string>
+    <string name="textbook_title">书名</string>
+
+    <!-- Root_preference -->
+    <string name="appearance_menu">外观</string>
+    <string name="about_menu">关于</string>
+    <string name="night_mode">深色模式</string>
+    <string name="monet_using">动态色彩</string>
+    <string name="terms_of_service">条款和条件状况</string>
+    <string name="privacy_policy">"隐私政策</string>
+    <string name="monet_using_summary">根据壁纸(系统)应用主题</string>
+    <string name="title_activity_bottom_navigation">BottomNavigationActivity</string>
+    <string name="title_home">主页</string>
+    <string name="title_dashboard">仪表板</string>
+    <string name="title_notifications">通知</string>
+</resources>

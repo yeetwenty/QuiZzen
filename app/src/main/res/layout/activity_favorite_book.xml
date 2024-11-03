@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".navigation.FavoriteBook">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffffff">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="#FFC99A" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <com.google.android.material.appbar.MaterialToolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="#FFC99A"
+                android:paddingStart="20dp"
+                android:paddingEnd="20dp"
+                app:title="Favourite Book" />
+
+            <SearchView
+                android:id="@+id/searchFlashcard"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#C57D3D"
+                android:padding="5dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:background="#FFC99A" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="103dp"
+                android:background="#ffffff" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="15dp"
+                android:background="#B47F52" />
+
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="123dp"
+                android:background="#ffffff" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="15dp"
+                android:background="#B47F52" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:background="#FFC99A"
+                android:textSize="12sp"
+                android:textColor="#3F0B0B"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toEndOf="@id/iv_book_cover"
+                app:layout_constraintEnd_toEndOf="parent" />
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="123dp"
+                android:background="#ffffff" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="15dp"
+                android:background="#B47F52" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:background="#FFC99A"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="123dp"
+                android:background="#ffffff" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="15dp"
+                android:background="#B47F52" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:background="#FFC99A"/>
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="60dp">
+
+            <ImageView
+                android:id="@+id/iv_book_cover"
+                android:layout_width="107dp"
+                android:layout_height="145dp"
+                android:layout_marginTop="50dp"
+                android:src="@drawable/first_page" />
+
+            <ImageView
+                android:id="@+id/iv_second_image"
+                android:layout_width="107dp"
+                android:layout_height="145dp"
+                android:layout_toEndOf="@id/iv_book_cover"
+                android:layout_marginStart="35dp"
+
+                android:layout_marginTop="50dp"
+                android:src="@drawable/souvenirs" />
+
+            <ImageView
+                android:id="@+id/iv_third_image"
+                android:layout_width="107dp"
+                android:layout_height="145dp"
+                android:layout_toEndOf="@id/iv_second_image"
+                android:layout_marginStart="35dp"
+
+                android:layout_marginTop="50dp"
+                android:src="@drawable/the_red_and_the_black" />
+
+            <ImageView
+                android:id="@+id/iv_forth_image"
+                android:layout_width="107dp"
+                android:layout_height="145dp"
+                android:layout_below="@id/iv_book_cover"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/jane_eyre" />
+
+            <ImageView
+                android:id="@+id/iv_fifth_image"
+                android:layout_width="107dp"
+                android:layout_height="145dp"
+                android:layout_toEndOf="@id/iv_forth_image"
+                android:layout_alignTop="@id/iv_forth_image"
+                android:layout_marginStart="35dp"
+                android:src="@drawable/wuthering" />
+
+
+
+
+        </RelativeLayout>
+
+    </FrameLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

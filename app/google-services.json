@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "21853179893",
+    "firebase_url": "https://group-ass-b3b69-default-rtdb.firebaseio.com",
+    "project_id": "group-ass-b3b69",
+    "storage_bucket": "group-ass-b3b69.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:21853179893:android:0ebe897036b71acc78dabc",
+        "android_client_info": {
+          "package_name": "com.example.quizzen"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "21853179893-4dgctorheo0hgq0iohj6dg57glrqppnm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC_os95qNZLEIcJXwSdbIjQ6V15BXjRPoE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "21853179893-4dgctorheo0hgq0iohj6dg57glrqppnm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

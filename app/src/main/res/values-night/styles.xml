@@ -1,0 +1,7 @@
+<resources>
+
+    <style name="Widget.Theme.AppTheme.MyView" parent="">
+        <item name="android:background">@color/darker_mode</item>
+        <item name="example_Colour">@color/light_mode_flesh</item>
+    </style>
+</resources>

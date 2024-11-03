@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:backgroundTint="#FFFFFF"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btn_select_file"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FFC99A"
+        android:text="@string/select_file"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:id="@+id/txt_selected_file"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="No file selected" />
+
+    <Button
+        android:id="@+id/btn_upload"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FFC99A"
+        android:text="@string/user_upload"
+        android:textColor="@color/black"/>
+
+</LinearLayout>

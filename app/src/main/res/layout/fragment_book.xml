@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fragment_book"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:screenOrientation="portrait"
+    tools:context=".book.BookRead">
+
+
+    <Button
+        android:id="@+id/btn_text_book"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="5dp"
+        android:backgroundTint="@color/app_shadow2"
+        android:text="@string/btn_book_text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <FrameLayout
+        android:id="@+id/frameLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffffff">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="#FFC99A" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <com.google.android.material.appbar.MaterialToolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="#FFC99A"
+                android:paddingStart="20dp"
+                android:paddingEnd="20dp"
+                app:title="Bookshelf" />
+
+            <SearchView
+                android:id="@+id/searchFlashcard"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#C57D3D"
+                android:padding="5dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:background="#FFC99A" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="103dp"
+                android:background="#ffffff" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="15dp"
+                android:background="#B47F52" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:background="#FFC99A"
+                android:text="The Little Prince   |  Souvenirs Entomologiques ｜ The Red and The black"
+                android:textColor="#3F0B0B"
+                android:textSize="12sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@id/iv_book_cover"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="123dp"
+                android:background="#ffffff" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="15dp"
+                android:background="#B47F52" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:background="#FFC99A"
+                android:text="          Jane Eyre       |              Wuthering Heights"
+                android:textColor="#3F0B0B"
+                android:textSize="12sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@id/iv_book_cover"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="123dp"
+                android:background="#ffffff" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="15dp"
+                android:background="#B47F52" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:background="#FFC99A" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="123dp"
+                android:background="#ffffff" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="15dp"
+                android:background="#B47F52" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:background="#FFC99A" />
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="60dp">
+
+            <ImageView
+                android:id="@+id/iv_book_cover"
+                android:layout_width="107dp"
+                android:layout_height="145dp"
+                android:layout_marginTop="50dp"
+                android:src="@drawable/first_page" />
+
+            <ImageView
+                android:id="@+id/iv_second_image"
+                android:layout_width="107dp"
+                android:layout_height="145dp"
+                android:layout_marginStart="35dp"
+                android:layout_marginTop="50dp"
+
+                android:layout_toEndOf="@id/iv_book_cover"
+                android:src="@drawable/souvenirs" />
+
+            <ImageView
+                android:id="@+id/iv_third_image"
+                android:layout_width="107dp"
+                android:layout_height="145dp"
+                android:layout_marginStart="35dp"
+                android:layout_marginTop="50dp"
+
+                android:layout_toEndOf="@id/iv_second_image"
+                android:src="@drawable/the_red_and_the_black" />
+
+            <ImageView
+                android:id="@+id/iv_forth_image"
+                android:layout_width="107dp"
+                android:layout_height="145dp"
+                android:layout_below="@id/iv_book_cover"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/jane_eyre" />
+
+            <ImageView
+                android:id="@+id/iv_fifth_image"
+                android:layout_width="107dp"
+                android:layout_height="145dp"
+                android:layout_alignTop="@id/iv_forth_image"
+                android:layout_marginStart="35dp"
+                android:layout_toEndOf="@id/iv_forth_image"
+                android:src="@drawable/wuthering" />
+
+            <ImageView
+                android:id="@+id/iv_sixth_image"
+                android:layout_width="100dp"
+                android:layout_height="135dp"
+                android:layout_alignTop="@id/iv_forth_image"
+                android:layout_marginStart="45dp"
+                android:layout_marginTop="10dp"
+                android:layout_toEndOf="@id/iv_fifth_image"
+                android:src="@drawable/blank" />
+
+            <ImageView
+                android:id="@+id/iv_seventh_image"
+                android:layout_width="100dp"
+                android:layout_height="135dp"
+                android:layout_below="@id/iv_forth_image"
+                android:layout_marginTop="30dp"
+                android:src="@drawable/blank" />
+
+            <ImageView
+                android:id="@+id/iv_eighth_image"
+                android:layout_width="100dp"
+                android:layout_height="135dp"
+                android:layout_alignTop="@id/iv_seventh_image"
+                android:layout_marginStart="50dp"
+                android:layout_toEndOf="@id/iv_seventh_image"
+                android:src="@drawable/blank" />
+
+            <ImageView
+                android:id="@+id/iv_nineth_image"
+                android:layout_width="100dp"
+                android:layout_height="135dp"
+                android:layout_alignTop="@id/iv_seventh_image"
+                android:layout_marginStart="45dp"
+                android:layout_toEndOf="@id/iv_eighth_image"
+                android:src="@drawable/blank" />
+
+            <ImageView
+                android:id="@+id/iv_heart_2"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_alignStart="@id/iv_second_image"
+                android:layout_alignBottom="@id/iv_second_image"
+                android:layout_marginStart="8dp"
+                android:layout_marginBottom="8dp"
+                android:src="@drawable/blank_heart" />
+
+            <ImageView
+                android:id="@+id/iv_heart_3"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_alignStart="@id/iv_third_image"
+                android:layout_alignBottom="@id/iv_third_image"
+                android:layout_marginStart="8dp"
+                android:layout_marginBottom="8dp"
+                android:src="@drawable/blank_heart" />
+
+
+            <ImageView
+                android:id="@+id/iv_heart_4"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_alignStart="@id/iv_book_cover"
+                android:layout_alignBottom="@id/iv_forth_image"
+                android:layout_marginStart="8dp"
+                android:layout_marginBottom="8dp"
+                android:src="@drawable/blank_heart" />
+
+            <ImageView
+                android:id="@+id/iv_heart_5"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_alignStart="@id/iv_second_image"
+                android:layout_alignBottom="@id/iv_fifth_image"
+                android:layout_marginStart="8dp"
+                android:layout_marginBottom="8dp"
+                android:src="@drawable/blank_heart" />
+
+
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/iv_heart_1"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="218dp"
+            android:src="@drawable/blank_heart"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
